@@ -1,0 +1,14 @@
+.all-cat-page { padding-bottom: 60px; }
+.all-cat-banner { background: #FF69B4; color: white; padding: 32px 0; margin-bottom: 32px; }
+.all-cat-banner h1 { font-family: var(--font-display); font-size: 2rem; margin-bottom: 6px; }
+.all-cat-banner p { opacity: 0.85; font-size: 15px; }
+.all-cat-content { display: flex; flex-direction: column; gap: 28px; }
+.cat-section { border-radius: 14px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.07); border-left: 4px solid #FF69B4; }
+.cat-section-header { display: flex; align-items: center; gap: 14px; padding: 16px 24px; }
+.cat-icon { font-size: 1.8rem; }
+.cat-section-header h2 { font-family: var(--font-display); font-size: 1.3rem; color: var(--brown); }
+.cat-section-body { display: flex; flex-wrap: wrap; gap: 0; background: white; padding: 20px 24px; }
+.sub-cat-col { min-width: 180px; padding: 0 24px 16px 0; }
+.sub-cat-col h3 { font-size: 13px; font-weight: 700; color: var(--brown); margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #f0f0f0; }
+.sub-cat-item { display: block; font-size: 13px; color: #555; padding: 3px 0; transition: color 0.15s, padding-left 0.15s; }
+.sub-cat-item:hover { color: #FF69B4; padding-left: 4px; }

@@ -1,0 +1,44 @@
+.profile-page { padding: 40px 0 60px; }
+.profile-layout { display: grid; grid-template-columns: 260px 1fr; gap: 28px; }
+.profile-sidebar { height: fit-content; }
+.profile-avatar {
+  display: flex; align-items: center; gap: 14px;
+  background: white; border-radius: var(--radius); padding: 20px;
+  box-shadow: var(--shadow); margin-bottom: 16px;
+}
+.avatar-circle {
+  width: 52px; height: 52px; border-radius: 50%;
+  background: var(--pink); color: var(--brown);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; font-weight: 700; font-family: var(--font-display);
+  flex-shrink: 0;
+}
+.profile-avatar h3 { font-size: 15px; font-weight: 600; }
+.profile-avatar p { font-size: 13px; color: #888; }
+.profile-nav { background: white; border-radius: var(--radius); padding: 12px; box-shadow: var(--shadow); }
+.profile-nav-item {
+  display: flex; align-items: center; gap: 12px;
+  width: 100%; padding: 12px 14px; border-radius: 10px;
+  font-size: 14px; font-weight: 500; background: none; color: var(--text);
+  transition: background 0.2s;
+}
+.profile-nav-item:hover { background: var(--gray); }
+.profile-nav-item.active { background: var(--pink); color: var(--brown); font-weight: 600; }
+.profile-nav-item.logout { color: #e53935; margin-top: 8px; }
+.order-card { background: white; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); margin-bottom: 16px; }
+.order-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+.order-id { font-weight: 700; font-size: 15px; display: block; }
+.order-date { font-size: 13px; color: #888; }
+.order-status { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 50px; }
+.order-item-row { display: flex; gap: 12px; font-size: 14px; padding: 6px 0; border-bottom: 1px solid #f5f5f5; color: #666; }
+.order-item-row span:first-child { flex: 1; }
+.order-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; }
+.order-total { font-weight: 700; color: var(--brown); }
+.empty-orders { text-align: center; padding: 60px; color: #888; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.empty-orders a { color: var(--pink-dark); font-weight: 600; }
+.info-card { background: white; border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.info-row { display: flex; padding: 14px 0; border-bottom: 1px solid #f5f5f5; }
+.info-row:last-child { border-bottom: none; }
+.info-label { width: 160px; font-size: 14px; font-weight: 600; color: var(--brown); }
+.info-value { font-size: 14px; color: #666; }
+@media (max-width: 768px) { .profile-layout { grid-template-columns: 1fr; } }

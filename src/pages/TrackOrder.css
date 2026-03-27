@@ -1,0 +1,35 @@
+.track-page { padding: 24px 0 0; }
+.breadcrumb { font-size: 13px; color: #888; margin-bottom: 24px; }
+.breadcrumb a { color: #FF69B4; font-weight: 600; }
+.track-card { max-width: 540px; margin: 0 auto 48px; background: white; border-radius: 16px; padding: 28px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+.track-card h2 { font-family: var(--font-display); font-size: 1.3rem; color: var(--brown); margin-bottom: 20px; text-align: center; }
+.track-order-row { display: flex; gap: 14px; align-items: flex-start; padding-bottom: 20px; border-bottom: 1px solid #f0f0f0; margin-bottom: 28px; }
+.track-order-row img { width: 80px; height: 80px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
+.track-order-id { font-size: 12px; color: #888; margin-bottom: 6px; }
+.track-order-name { font-size: 14px; font-weight: 600; color: #222; margin-bottom: 6px; line-height: 1.4; }
+.track-order-date { font-size: 12px; color: #FF69B4; font-weight: 600; }
+.track-timeline { display: flex; flex-direction: column; gap: 0; }
+.track-step { display: flex; gap: 16px; }
+.track-step-left { display: flex; flex-direction: column; align-items: center; }
+.track-icon {
+  width: 48px; height: 48px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.track-step.done .track-icon { background: #FF69B4; color: white; }
+.track-step.pending .track-icon { background: #f0f0f0; color: #bbb; }
+.track-line { width: 2px; flex: 1; min-height: 32px; margin: 4px 0; }
+.track-step.done .track-line { background: #FF69B4; }
+.track-step.pending .track-line { background: #e0e0e0; border: 1px dashed #ccc; }
+.track-step-text { padding: 10px 0 24px; }
+.track-step-label { font-size: 15px; font-weight: 700; color: #222; margin-bottom: 4px; }
+.track-step.pending .track-step-label { color: #aaa; }
+.track-step-time { font-size: 13px; color: #888; }
+.footer { background: #FFB6C1; padding: 48px 0 24px; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1.2fr 1fr 1fr 0.8fr; gap: 28px; }
+.footer-brand p { font-size: 13px; color: #555; line-height: 1.7; }
+.footer h3 { font-size: 14px; font-weight: 700; color: #222; margin-bottom: 14px; }
+.footer a { display: block; font-size: 13px; color: #444; margin-bottom: 8px; }
+.footer a:hover { color: var(--brown); }
+.social-icons { display: flex; gap: 8px; }
+@media (max-width: 768px) { .footer-grid { grid-template-columns: repeat(2,1fr); } }
