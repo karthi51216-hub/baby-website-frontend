@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66884f33.css",
+    "main.js": "/static/js/main.88faa258.js",
+    "static/media/thumb-1920-375571.png": "/static/media/thumb-1920-375571.75db7ca55b19541c7fb2.png",
+    "static/media/new7.jpg": "/static/media/new7.0f3caef86f0a338d3f11.jpg",
+    "static/media/1318917a.jpg": "/static/media/1318917a.1f8df7087eb6eb6361f0.jpg",
+    "static/media/IMG_20250821_174843_910-removebg-preview.png": "/static/media/IMG_20250821_174843_910-removebg-preview.af536b3f6f25cd717537.png",
+    "static/media/top3.webp": "/static/media/top3.910288e933769ebcbc8d.webp",
+    "static/media/IMG_20250821_174843_910-removebg-preview (1).png": "/static/media/IMG_20250821_174843_910-removebg-preview (1).9926652fbeb2d97ed3da.png",
+    "static/media/IMG_20250824_195307_666.jpg": "/static/media/IMG_20250824_195307_666.3232616613ab97e46fc3.jpg",
+    "static/media/IMG_20250824_195115_947.jpg": "/static/media/IMG_20250824_195115_947.a87bcb16ed64d3282d5d.jpg",
+    "static/media/IMG_20250824_195229_011.jpg": "/static/media/IMG_20250824_195229_011.aba5c57382b642046b25.jpg",
+    "static/media/new6.webp": "/static/media/new6.e572ffcdba43fc63e993.webp",
+    "static/media/top6.webp": "/static/media/top6.e572ffcdba43fc63e993.webp",
+    "static/media/IMG_20250824_195106_608.jpg": "/static/media/IMG_20250824_195106_608.6306537af3d288897ede.jpg",
+    "static/media/new5.webp": "/static/media/new5.6e63af0897c8a73fcb0f.webp",
+    "static/media/IMG_20250824_195157_036.jpg": "/static/media/IMG_20250824_195157_036.84c9a2ced5a1e01ec3d2.jpg",
+    "static/media/new8.webp": "/static/media/new8.c35a822762ed555b53f4.webp",
+    "static/media/top5.webp": "/static/media/top5.c35a822762ed555b53f4.webp",
+    "static/media/top4.webp": "/static/media/top4.e7b7928ec76872e7b69c.webp",
+    "static/media/top1.webp": "/static/media/top1.fd71225343c715b6929c.webp",
+    "static/media/beautiful-professional-woman-10497271.webp": "/static/media/beautiful-professional-woman-10497271.2f50f09d8ac3336eb220.webp",
+    "static/media/top2.webp": "/static/media/top2.afe65898aa61e6deb1a7.webp",
+    "static/media/new3.webp": "/static/media/new3.67b4f0f46fcd93e926a3.webp",
+    "static/media/new1.webp": "/static/media/new1.24f1d605f9be4fc9df01.webp",
+    "static/media/new4.webp": "/static/media/new4.60c9be1d5a21ca7a68dd.webp",
+    "static/media/istockphoto-1386217759-612x612.jpg": "/static/media/istockphoto-1386217759-612x612.b4700c5498ace4ee589a.jpg",
+    "static/media/360_F_191850653_IkzN9vZTtOtJ8NTKLKOp8PlaY8iCk6Ls.jpg": "/static/media/360_F_191850653_IkzN9vZTtOtJ8NTKLKOp8PlaY8iCk6Ls.ae94ff3c02a4d307e7f0.jpg",
+    "static/media/20682525a.webp": "/static/media/20682525a.866a1439dc979b3b51f1.webp",
+    "static/media/new2.webp": "/static/media/new2.866a1439dc979b3b51f1.webp",
+    "static/media/disclipline.jpg": "/static/media/disclipline.bea37a8bd6713d55212b.jpg",
+    "index.html": "/index.html",
+    "main.66884f33.css.map": "/static/css/main.66884f33.css.map",
+    "main.88faa258.js.map": "/static/js/main.88faa258.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66884f33.css",
+    "static/js/main.88faa258.js"
+  ]
+}
