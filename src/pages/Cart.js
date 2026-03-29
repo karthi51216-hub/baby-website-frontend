@@ -17,7 +17,11 @@ export default function Cart() {
   const navigate = useNavigate();
   const [sugIdx, setSugIdx] = useState(0);
 
-  const imgSrc = (item) => item.image || `https://via.placeholder.com/80x80/FFB6C1/5C3D2E?text=${encodeURIComponent(item.name)}`;
+ const imgSrc = (item) => {
+  if (!item.image) return `https://via.placeholder.com/80x80/FFB6C1/5C3D2E?text=${encodeURIComponent(item.name)}`;
+  if (item.image.startsWith('http')) return item.image;
+  return `https://karthiga.pythonanywhere.com${item.image}`;
+};
 
   return (
     <div className="cart-page">
