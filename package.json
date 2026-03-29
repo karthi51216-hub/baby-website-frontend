@@ -2,6 +2,11 @@
   "name": "baby-products-frontend",
   "version": "1.0.0",
   "private": true,
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,11 +18,14 @@
     "@stripe/stripe-js": "^3.0.6",
     "@stripe/react-stripe-js": "^2.5.0"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
+
   "proxy": "http://localhost:8000",
+
   "browserslist": {
     "production": [
       ">0.2%",
