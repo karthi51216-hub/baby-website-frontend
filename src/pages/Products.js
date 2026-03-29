@@ -248,14 +248,16 @@ return (
 }
 
 function ProductItemCard({ product, addToCart }) {
-  const imgSrc = product.image
-  ? `http://127.0.0.1:8000${product.image}`
+ const imgSrc = product.image
+  ? `https://karthiga.pythonanywhere.com${product.image}`
   : `https://via.placeholder.com/300x300/FFB6C1/5C3D2E?text=${encodeURIComponent(product.name)}`;
+
 
   return (
     <div className="prod-item-card">
       <div className="prod-item-img">
-        <img src={imgSrc} alt={product.name} />
+       
+       <img src={`https://karthiga.pythonanywhere.com${product.image}`} alt={product.name} />
         <button className="wish-btn"><Heart size={15} /></button>
         {product.discount_percent > 0 && (
           <span className="disc-badge">-{product.discount_percent}%</span>
